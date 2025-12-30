@@ -9,7 +9,7 @@ class Contact:
 
     def contact_to_dict(self):
         return {
-            "contact_id":self.contact_id,
+            "_id":self.contact_id,
             "first_name":self.first_name,
             "last_name":self.last_name,
             "phone_number":self.phone_number
